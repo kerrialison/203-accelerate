@@ -22,6 +22,10 @@ Text Domain:  accelerate-theme-child
 	background: none repeat scroll 0 0 #45ac9d;
   }
 
+.page-header .primary-navigation ul li {
+    float: left;
+  }
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -40,9 +44,40 @@ Text Domain:  accelerate-theme-child
 }
 .blog-post h3 {
 	font-size: 1.5em;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #45ac9d;
+    text-transform: uppercase;
 }
-font-family: 'Montserrat';
-font-weight: 700;
-color: #45ac9d;
-text-transform: uppercase;
+
+/*** CASE STUDIES ***/
+
+h3, h6 {
+    font-weight: 100;
+    font-size: .875em;
+}
+
+h3 {
+    color: #a6a6a6;
+}
+
+article.case-study {
+    margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+    width: 315px;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+    width: 600px;
+    float: left;
+}
+
+div.case-study-images img {
+    display: block;
+    margin-bottom: 50px;
+    border:  1px solid #dddddd;
 }
