@@ -78,11 +78,9 @@ aside.case-study-sidebar {
 }
 
 div.case-study-images {
-    width: 600px;
+    width: 50%;
+    height: auto;
     float: left;
-}
-
-div.case-study-images img {
     display: block;
     margin-bottom: 50px;
     border:  1px solid #dddddd;
