@@ -104,3 +104,18 @@ li.individual-featured-work {
     font-weight: 400;
     text-transform: none;
 }
+
+/*** FOOTER ***/
+ul.social-media-menu {
+    text-align: right;
+}
+ul.social-media-menu li {
+    display: block;
+}
+ul.social-media-menu li a:before {
+    display: inline-block;
+    font-family: 'Fontawesome';
+    content: '\f0a9';
+    font-size: 1.25em;
+}
+
