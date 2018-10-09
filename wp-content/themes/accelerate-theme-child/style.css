@@ -106,33 +106,41 @@ li.individual-featured-work {
 }
 
 /*** FOOTER ***/
-ul.social-media-menu {
+.social-media-navigation ul{
     text-align: right;
 }
-ul.social-media-menu li {
-    display: block;
+.social-media-navigation ul li {
+    display: inline-block;
 }
-ul.social-media-menu li a:before {
+.social-media-navigation ul li a:before {
     display: inline-block;
     font-family: 'Fontawesome';
     content: '\f0a9';
     font-size: 1.25em;
+    padding: .3em;
+    line-height: 1em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background: #3b3b3b;
 }
 
-.social-media-menu li a[href*="mailto"]::before{ content:'\f0e0'; }
-.social-media-menu li a[href*="facebook.com"]::before{content:'\f09a';}
-.social-media-menu li a[href*="twitter.com"]::before{content:'\f099';}
-.social-media-menu li a[href*="dribble.com"]::before{content:'\f17d';}
-.social-media-menu li a[href*="plus.google.com"]::before{content:'\f0d5';}
-.social-media-menu li a[href*="pinterest.com"]::before{content:'\f0d2';}
-.social-media-menu li a[href*="github.com"]::before{content:'\f09b';}
-.social-media-menu li a[href*="tumblr.com"]::before{content:'\f173';}
-.social-media-menu li a[href*="youtube.com"]::before{content:'\f167';}
-.social-media-menu li a[href*="flickr.com"]::before{content:'\f16e';}
-.social-media-menu li a[href*="vimeo.com"]::before{content:'\f194';}
-.social-media-menu li a[href*="instagram.com"]::before{content:'\f16d';}
-.social-media-menu li a[href*="linkedin.com"]::before{content:'\f0e1';}
-.social-media-menu li a[href*="codepen.com"]::before{content:'\f1cb';}
+.social-media-navigation li a[href*="mailto"]::before{ content:'\f0e0'; }
+.social-media-navigation li a[href*="facebook.com"]::before{content:'\f09a';}
+.social-media-navigation li a[href*="twitter.com"]::before{content:'\f099';}
+.social-media-navigation li a[href*="dribble.com"]::before{content:'\f17d';}
+.social-media-navigation li a[href*="plus.google.com"]::before{content:'\f0d5';}
+.social-media-navigation li a[href*="pinterest.com"]::before{content:'\f0d2';}
+.social-media-navigation li a[href*="github.com"]::before{content:'\f09b';}
+.social-media-navigation li a[href*="tumblr.com"]::before{content:'\f173';}
+.social-media-navigation li a[href*="youtube.com"]::before{content:'\f167';}
+.social-media-navigation li a[href*="flickr.com"]::before{content:'\f16e';}
+.social-media-navigation li a[href*="vimeo.com"]::before{content:'\f194';}
+.social-media-navigation li a[href*="instagram.com"]::before{content:'\f16d';}
+.social-media-navigation li a[href*="linkedin.com"]::before{content:'\f0e1';}
+.social-media-navigation li a[href*="codepen.com"]::before{content:'\f1cb';}
 
 /*--------------------------------------------------------------
 # Accessibility
